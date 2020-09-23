@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Configuration>
+  <Configurator>
+    <Name dnOrder="0" value="default"/>
+    <Processor dnOrder="1" value="PIC32MX250F128B"/>
+    <Harmony dnOrder="2" path="../../root/Harmony3"/>
+    <Folder_Name dnOrder="3" value=""/>
+    <Manifest dnOrder="4">
+      <Files dnOrder="0">
+        <File dnOrder="0">
+          <Type dnOrder="0">SOURCE</Type>
+          <Name dnOrder="1">bsp.c</Name>
+          <Security dnOrder="2">NON_SECURE</Security>
+          <LogicalPath dnOrder="3">config/default/bsp/</LogicalPath>
+          <PhysicalPath dnOrder="4">/bsp/</PhysicalPath>
+          <GeneratedChecksum dnOrder="5">2F6CC050E57B9E5BA8A6C6C9A2D8F09A</GeneratedChecksum>
+          <UserChecksum dnOrder="6">2F6CC050E57B9E5BA8A6C6C9A2D8F09A</UserChecksum>
+        </File>
+        <File dnOrder="1">
+          <Type dnOrder="0">SOURCE</Type>
+          <Name dnOrder="1">drv_bm71.c</Name>
+          <Security dnOrder="2">NON_SECURE</Security>
+          <LogicalPath dnOrder="3">config/default/bt/driver/bm71/</LogicalPath>
+          <PhysicalPath dnOrder="4">/bt/driver/bm71/</PhysicalPath>
+          <GeneratedChecksum dnOrder="5">2F1ABC41D2FCF0CD19526CC60A3AC604</GeneratedChecksum>
+          <UserChecksum dnOrder="6">2F1ABC41D2FCF0CD19526CC60A3AC604</UserChecksum>
+        </File>
+        <File dnOrder="2">
+          <Type dnOrder="0">SOURCE</Type>
+          <Name dnOrder="1">drv_bm71_ble.c</Name>
+          <Security dnOrder="2">NON_SECURE</Security>
+          <LogicalPath dnOrder="3">config/default/bt/driver/bm71/</LogicalPath>
+          <PhysicalPath dnOrder="4">/bt/driver/bm71/</PhysicalPath>
+          <GeneratedChecksum dnOrder="5">E58F76125860FA699D3CA6741F3230C4</GeneratedChecksum>
+          <UserChecksum dnOrder="6">E58F76125860FA699D3CA6741F3230C4</UserChecksum>
+        </File>
+        <File dnOrder="3">
+          <Type dnOrder="0">SOURCE</Type>
+          <Name dnOrder="1">drv_bm71_command_decode.c</Name>
+          <Security dnOrder="2">NON_SECURE</Security>
+          <LogicalPath dnOrder="3">config/default/bt/driver/bm71/</LogicalPath>
+          <PhysicalPath dnOrder="4">/bt/driver/bm71/</PhysicalPath>
+          <GeneratedChecksum dnOrder="5">8342946F1988E34B20D75CAD01E00733</GeneratedChecksum>
+          <UserChecksum dnOrder="6">8342946F1988E34B20D75CAD01E00733</UserChecksum>
+        </File>
+        <File dnOrder="4">
+          <Type dnOrder="0">SOURCE</Type>
+          <Name dnOrder="1">drv_bm71_command_send.c</Name>
+          <Security dnOrder="2">NON_SECURE</Security>
+          <LogicalPath dnOrder="3">config/default/bt/driver/bm71/</LogicalPath>
+          <PhysicalPath dnOrder="4">/bt/driver/bm71/</PhysicalPath>
+          <GeneratedChecksum dnOrder="5">5CC0BA61AF2C74CC4B2C3D42C1CA10B5</GeneratedChecksum>
+          <UserChecksum dnOrder="6">5CC0BA61AF2C74CC4B2C3D42C1CA10B5</UserChecksum>
+        </File>
+        <File dnOrder="5">
+          <Type dnOrder="0">SOURCE</Type>
+          <Name dnOrder="1">drv_bm71_gpio.c</Name>
+          <Security dnOrder="2">NON_SECURE</Security>
+          <LogicalPath dnOrder="3">config/default/bt/driver/bm71/</LogicalPath>
+          <PhysicalPath dnOrder="4">/bt/driver/bm71/</PhysicalPath>
+          <GeneratedChecksum dnOrder="5">62600D59BA59AE9319C7F202EEBCD6BE</GeneratedChecksum>
+          <UserChecksum dnOrder="6">62600D59BA59AE9319C7F202EEBCD6BE</UserChecksum>
+        </File>
+        <File dnOrder="6">
+          <Type dnOrder="0">SOURCE</Type>
+          <Name dnOrder="1">drv_bm71_local.h</Name>
+          <Security dnOrder="2">NON_SECURE</Security>
+          <LogicalPath dnOrder="3">config/default/bt/driver/bm71/</LogicalPath>
+          <PhysicalPath dnOrder="4">/bt/driver/bm71/</PhysicalPath>
+          <GeneratedChecksum dnOrder="5">72C8DA632B6C71876D79E4C2ADCD9102</GeneratedChecksum>
+          <UserChecksum dnOrder="6">72C8DA632B6C71876D79E4C2ADCD9102</UserChecksum>
+        </File>
+        <File dnOrder="7">
+          <Type dnOrder="0">SOURCE</Type>
+          <Name dnOrder="1">drv_bm71_uart.c</Name>
+          <Security dnOrder="2">NON_SECURE</Security>
+          <LogicalPath dnOrder="3">config/default/bt/driver/bm71/</LogicalPath>
+          <PhysicalPath dnOrder="4">/bt/driver/bm71/</PhysicalPath>
+          <GeneratedChecksum dnOrder="5">3B758A2A335EE12A878789F87AB055E7</GeneratedChecksum>
+          <UserChecksum dnOrder="6">3B758A2A335EE12A878789F87AB055E7</UserChecksum>
+        </File>
+        <File dnOrder="8">
+          <Type dnOrder="0">SOURCE</Type>
+          <Name dnOrder="1">exceptions.c</Name>
+          <Security dnOrder="2">NON_SECURE</Security>
+          <LogicalPath dnOrder="3">config/default/</LogicalPath>
+          <PhysicalPath dnOrder="4">/</PhysicalPath>
+          <GeneratedChecksum dnOrder="5">C2B88D9215301ECE3DC36E4B82F2791C</GeneratedChecksum>
+          <UserChecksum dnOrder="6">C2B88D9215301ECE3DC36E4B82F2791C</UserChecksum>
+        </File>
+        <File dnOrder="9">
+          <Type dnOrder="0">SOURCE</Type>
+          <Name dnOrder="1">initialization.c</Name>
+          <Security dnOrder="2">NON_SECURE</Security>
+          <LogicalPath dnOrder="3">config/default/</LogicalPath>
+          <PhysicalPath dnOrder="4">/</PhysicalPath>
+          <GeneratedChecksum dnOrder="5">E4B812EA34385B47BFD79BAC6B260215</GeneratedChecksum>
+          <UserChecksum dnOrder="6">E4B812EA34385B47BFD79BAC6B260215</UserChecksum>
+        </File>
+        <File dnOrder="10">
+          <Type dnOrder="0">SOURCE</Type>
+          <Name dnOrder="1">interrupts.c</Name>
+          <Security dnOrder="2">NON_SECURE</Security>
+          <LogicalPath dnOrder="3">config/default/</LogicalPath>
+          <PhysicalPath dnOrder="4">/</PhysicalPath>
+          <GeneratedChecksum dnOrder="5">278504A7AEBE848458EF4DF12B2A96A7</GeneratedChecksum>
+          <UserChecksum dnOrder="6">278504A7AEBE848458EF4DF12B2A96A7</UserChecksum>
+        </File>
+        <File dnOrder="11">
+          <Type dnOrder="0">SOURCE</Type>
+          <Name dnOrder="1">main.c</Name>
+          <Security dnOrder="2">NON_SECURE</Security>
+          <LogicalPath dnOrder="3"/>
+          <PhysicalPath dnOrder="4">/../../</PhysicalPath>
+          <GeneratedChecksum dnOrder="5"/>
+          <UserChecksum dnOrder="6"/>
+        </File>
+        <File dnOrder="12">
+          <Type dnOrder="0">SOURCE</Type>
+          <Name dnOrder="1">plib_clk.c</Name>
+          <Security dnOrder="2">NON_SECURE</Security>
+          <LogicalPath dnOrder="3">config/default/peripheral/clk/</LogicalPath>
+          <PhysicalPath dnOrder="4">/peripheral/clk/</PhysicalPath>
+          <GeneratedChecksum dnOrder="5">4B7D59969033F9A1CC585E4B5C4B539A</GeneratedChecksum>
+          <UserChecksum dnOrder="6">4B7D59969033F9A1CC585E4B5C4B539A</UserChecksum>
+        </File>
+        <File dnOrder="13">
+          <Type dnOrder="0">SOURCE</Type>
+          <Name dnOrder="1">plib_evic.c</Name>
+          <Security dnOrder="2">NON_SECURE</Security>
+          <LogicalPath dnOrder="3">config/default/peripheral/evic/</LogicalPath>
+          <PhysicalPath dnOrder="4">/peripheral/evic/</PhysicalPath>
+          <GeneratedChecksum dnOrder="5">2E41AB487F25A7A5B5E91EDA2F3D9379</GeneratedChecksum>
+          <UserChecksum dnOrder="6">2E41AB487F25A7A5B5E91EDA2F3D9379</UserChecksum>
+        </File>
+        <File dnOrder="14">
+          <Type dnOrder="0">SOURCE</Type>
+          <Name dnOrder="1">plib_gpio.c</Name>
+          <Security dnOrder="2">NON_SECURE</Security>
+          <LogicalPath dnOrder="3">config/default/peripheral/gpio/</LogicalPath>
+          <PhysicalPath dnOrder="4">/peripheral/gpio/</PhysicalPath>
+          <GeneratedChecksum dnOrder="5">0A54BF08BE9E3D406BA33BC33097C2E3</GeneratedChecksum>
+          <UserChecksum dnOrder="6">0A54BF08BE9E3D406BA33BC33097C2E3</UserChecksum>
+        </File>
+        <File dnOrder="15">
+          <Type dnOrder="0">SOURCE</Type>
+          <Name dnOrder="1">plib_spi1_master.c</Name>
+          <Security dnOrder="2">NON_SECURE</Security>
+          <LogicalPath dnOrder="3">config/default/peripheral/spi/spi_master</LogicalPath>
+          <PhysicalPath dnOrder="4">/peripheral/spi/spi_master/</PhysicalPath>
+          <GeneratedChecksum dnOrder="5">E2044301245F0A1BEE39CEC76FE63714</GeneratedChecksum>
+          <UserChecksum dnOrder="6">E2044301245F0A1BEE39CEC76FE63714</UserChecksum>
+        </File>
+        <File dnOrder="16">
+          <Type dnOrder="0">SOURCE</Type>
+          <Name dnOrder="1">plib_tmr1.c</Name>
+          <Security dnOrder="2">NON_SECURE</Security>
+          <LogicalPath dnOrder="3">config/default/peripheral/tmr1/</LogicalPath>
+          <PhysicalPath dnOrder="4">/peripheral/tmr1/</PhysicalPath>
+          <GeneratedChecksum dnOrder="5">45CCF5E6D8429FCF87729771BA1B820A</GeneratedChecksum>
+          <UserChecksum dnOrder="6">45CCF5E6D8429FCF87729771BA1B820A</UserChecksum>
+        </File>
+        <File dnOrder="17">
+          <Type dnOrder="0">SOURCE</Type>
+          <Name dnOrder="1">plib_uart1.c</Name>
+          <Security dnOrder="2">NON_SECURE</Security>
+          <LogicalPath dnOrder="3">config/default/peripheral/uart/</LogicalPath>
+          <PhysicalPath dnOrder="4">/peripheral/uart/</PhysicalPath>
+          <GeneratedChecksum dnOrder="5">6B2E59DF51D02171358B5CA857FCCE2A</GeneratedChecksum>
+          <UserChecksum dnOrder="6">6B2E59DF51D02171358B5CA857FCCE2A</UserChecksum>
+        </File>
+        <File dnOrder="18">
+          <Type dnOrder="0">SOURCE</Type>
+          <Name dnOrder="1">plib_uart2.c</Name>
+          <Security dnOrder="2">NON_SECURE</Security>
+          <LogicalPath dnOrder="3">config/default/peripheral/uart/</LogicalPath>
+          <PhysicalPath dnOrder="4">/peripheral/uart/</PhysicalPath>
+          <GeneratedChecksum dnOrder="5">335B70004A060C7C00BFEB00A9ABA131</GeneratedChecksum>
+          <UserChecksum dnOrder="6">335B70004A060C7C00BFEB00A9ABA131</UserChecksum>
+        </File>
+        <File dnOrder="19">
+          <Type dnOrder="0">SOURCE</Type>
+          <Name dnOrder="1">xc32_monitor.c</Name>
+          <Security dnOrder="2">NON_SECURE</Security>
+          <LogicalPath dnOrder="3">config/default/stdio/</LogicalPath>
+          <PhysicalPath dnOrder="4">/stdio/</PhysicalPath>
+          <GeneratedChecksum dnOrder="5">684C1B450BD0C0ADF455296291954A10</GeneratedChecksum>
+          <UserChecksum dnOrder="6">684C1B450BD0C0ADF455296291954A10</UserChecksum>
+        </File>
+        <File dnOrder="20">
+          <Type dnOrder="0">HEADER</Type>
+          <Name dnOrder="1">bsp.h</Name>
+          <Security dnOrder="2">NON_SECURE</Security>
+          <LogicalPath dnOrder="3">config/default/bsp/</LogicalPath>
+          <PhysicalPath dnOrder="4">/bsp/</PhysicalPath>
+          <GeneratedChecksum dnOrder="5">1CC4A4F2A70990A31F79E1541BB62BE6</GeneratedChecksum>
+          <UserChecksum dnOrder="6">1CC4A4F2A70990A31F79E1541BB62BE6</UserChecksum>
+        </File>
+        <File dnOrder="21">
+          <Type dnOrder="0">HEADER</Type>
+          <Name dnOrder="1">definitions.h</Name>
+          <Security dnOrder="2">NON_SECURE</Security>
+          <LogicalPath dnOrder="3">config/default/</LogicalPath>
+          <PhysicalPath dnOrder="4">/</PhysicalPath>
+          <GeneratedChecksum dnOrder="5">8482ECC95C29F40461C0DE96DE85B145</GeneratedChecksum>
+          <UserChecksum dnOrder="6">8482ECC95C29F40461C0DE96DE85B145</UserChecksum>
+        </File>
+        <File dnOrder="22">
+          <Type dnOrder="0">HEADER</Type>
+          <Name dnOrder="1">device.h</Name>
+          <Security dnOrder="2">NON_SECURE</Security>
+          <LogicalPath dnOrder="3">config/default/</LogicalPath>
+          <PhysicalPath dnOrder="4">/</PhysicalPath>
+          <GeneratedChecksum dnOrder="5">5D5C52527AB1435153DB9B50ADE6B79D</GeneratedChecksum>
+          <UserChecksum dnOrder="6">5D5C52527AB1435153DB9B50ADE6B79D</UserChecksum>
+        </File>
+        <File dnOrder="23">
+          <Type dnOrder="0">HEADER</Type>
+          <Name dnOrder="1">drv_bm71.h</Name>
+          <Security dnOrder="2">NON_SECURE</Security>
+          <LogicalPath dnOrder="3">config/default/bt/driver/bm71/</LogicalPath>
+          <PhysicalPath dnOrder="4">/bt/driver/bm71/</PhysicalPath>
+          <GeneratedChecksum dnOrder="5">5CD4504EEB40FDC4A4F78CEE275375AB</GeneratedChecksum>
+          <UserChecksum dnOrder="6">5CD4504EEB40FDC4A4F78CEE275375AB</UserChecksum>
+        </File>
+        <File dnOrder="24">
+          <Type dnOrder="0">HEADER</Type>
+          <Name dnOrder="1">drv_bm71_ble.h</Name>
+          <Security dnOrder="2">NON_SECURE</Security>
+          <LogicalPath dnOrder="3">config/default/bt/driver/bm71/</LogicalPath>
+          <PhysicalPath dnOrder="4">/bt/driver/bm71/</PhysicalPath>
+          <GeneratedChecksum dnOrder="5">BE77C7ADD092E700FE7FBCA74D6EA516</GeneratedChecksum>
+          <UserChecksum dnOrder="6">BE77C7ADD092E700FE7FBCA74D6EA516</UserChecksum>
+        </File>
+        <File dnOrder="25">
+          <Type dnOrder="0">HEADER</Type>
+          <Name dnOrder="1">drv_bm71_command_decode.h</Name>
+          <Security dnOrder="2">NON_SECURE</Security>
+          <LogicalPath dnOrder="3">config/default/bt/driver/bm71/</LogicalPath>
+          <PhysicalPath dnOrder="4">/bt/driver/bm71/</PhysicalPath>
+          <GeneratedChecksum dnOrder="5">FEE1E112F225D3F7C7765F3875886035</GeneratedChecksum>
+          <UserChecksum dnOrder="6">FEE1E112F225D3F7C7765F3875886035</UserChecksum>
+        </File>
+        <File dnOrder="26">
+          <Type dnOrder="0">HEADER</Type>
+          <Name dnOrder="1">drv_bm71_command_send.h</Name>
+          <Security dnOrder="2">NON_SECURE</Security>
+          <LogicalPath dnOrder="3">config/default/bt/driver/bm71/</LogicalPath>
+          <PhysicalPath dnOrder="4">/bt/driver/bm71/</PhysicalPath>
+          <GeneratedChecksum dnOrder="5">A8A4970277EA780C21AAE95CDB93394C</GeneratedChecksum>
+          <UserChecksum dnOrder="6">A8A4970277EA780C21AAE95CDB93394C</UserChecksum>
+        </File>
+        <File dnOrder="27">
+          <Type dnOrder="0">HEADER</Type>
+          <Name dnOrder="1">drv_bm71_gpio.h</Name>
+          <Security dnOrder="2">NON_SECURE</Security>
+          <LogicalPath dnOrder="3">config/default/bt/driver/bm71/</LogicalPath>
+          <PhysicalPath dnOrder="4">/bt/driver/bm71/</PhysicalPath>
+          <GeneratedChecksum dnOrder="5">73E4FEF4BA6F8A3AE82AB8F43217DB4A</GeneratedChecksum>
+          <UserChecksum dnOrder="6">73E4FEF4BA6F8A3AE82AB8F43217DB4A</UserChecksum>
+        </File>
+        <File dnOrder="28">
+          <Type dnOrder="0">HEADER</Type>
+          <Name dnOrder="1">drv_bm71_uart.h</Name>
+          <Security dnOrder="2">NON_SECURE</Security>
+          <LogicalPath dnOrder="3">config/default/bt/driver/bm71/</LogicalPath>
+          <PhysicalPath dnOrder="4">/bt/driver/bm71/</PhysicalPath>
+          <GeneratedChecksum dnOrder="5">1B205C163AE8D18288F90089961324CD</GeneratedChecksum>
+          <UserChecksum dnOrder="6">1B205C163AE8D18288F90089961324CD</UserChecksum>
+        </File>
+        <File dnOrder="29">
+          <Type dnOrder="0">HEADER</Type>
+          <Name dnOrder="1">plib_clk.h</Name>
+          <Security dnOrder="2">NON_SECURE</Security>
+          <LogicalPath dnOrder="3">config/default/peripheral/clk/</LogicalPath>
+          <PhysicalPath dnOrder="4">/peripheral/clk/</PhysicalPath>
+          <GeneratedChecksum dnOrder="5">7066CC390335CF75126E2A50C46E3BDD</GeneratedChecksum>
+          <UserChecksum dnOrder="6">7066CC390335CF75126E2A50C46E3BDD</UserChecksum>
+        </File>
+        <File dnOrder="30">
+          <Type dnOrder="0">HEADER</Type>
+          <Name dnOrder="1">plib_evic.h</Name>
+          <Security dnOrder="2">NON_SECURE</Security>
+          <LogicalPath dnOrder="3">config/default/peripheral/evic/</LogicalPath>
+          <PhysicalPath dnOrder="4">/peripheral/evic/</PhysicalPath>
+          <GeneratedChecksum dnOrder="5">51DCDCA7225EA91AE9A561893D29CF68</GeneratedChecksum>
+          <UserChecksum dnOrder="6">51DCDCA7225EA91AE9A561893D29CF68</UserChecksum>
+        </File>
+        <File dnOrder="31">
+          <Type dnOrder="0">HEADER</Type>
+          <Name dnOrder="1">plib_gpio.h</Name>
+          <Security dnOrder="2">NON_SECURE</Security>
+          <LogicalPath dnOrder="3">config/default/peripheral/gpio/</LogicalPath>
+          <PhysicalPath dnOrder="4">/peripheral/gpio/</PhysicalPath>
+          <GeneratedChecksum dnOrder="5">F88831213739227B44B38B3527FEC2E9</GeneratedChecksum>
+          <UserChecksum dnOrder="6">F88831213739227B44B38B3527FEC2E9</UserChecksum>
+        </File>
+        <File dnOrder="32">
+          <Type dnOrder="0">HEADER</Type>
+          <Name dnOrder="1">plib_spi1_master.h</Name>
+          <Security dnOrder="2">NON_SECURE</Security>
+          <LogicalPath dnOrder="3">config/default/peripheral/spi/spi_master</LogicalPath>
+          <PhysicalPath dnOrder="4">/peripheral/spi/spi_master/</PhysicalPath>
+          <GeneratedChecksum dnOrder="5">8B538ED26B7B1F9177E6F490AAE66B57</GeneratedChecksum>
+          <UserChecksum dnOrder="6">8B538ED26B7B1F9177E6F490AAE66B57</UserChecksum>
+        </File>
+        <File dnOrder="33">
+          <Type dnOrder="0">HEADER</Type>
+          <Name dnOrder="1">plib_spi_master_common.h</Name>
+          <Security dnOrder="2">NON_SECURE</Security>
+          <LogicalPath dnOrder="3">config/default/peripheral/spi/spi_master</LogicalPath>
+          <PhysicalPath dnOrder="4">/peripheral/spi/spi_master/</PhysicalPath>
+          <GeneratedChecksum dnOrder="5">CFA758C8B7258190473EF7C60C4BA4E9</GeneratedChecksum>
+          <UserChecksum dnOrder="6">CFA758C8B7258190473EF7C60C4BA4E9</UserChecksum>
+        </File>
+        <File dnOrder="34">
+          <Type dnOrder="0">HEADER</Type>
+          <Name dnOrder="1">plib_tmr1.h</Name>
+          <Security dnOrder="2">NON_SECURE</Security>
+          <LogicalPath dnOrder="3">config/default/peripheral/tmr1/</LogicalPath>
+          <PhysicalPath dnOrder="4">/peripheral/tmr1/</PhysicalPath>
+          <GeneratedChecksum dnOrder="5">32D7539D9231F3C159ABECE91A0281EA</GeneratedChecksum>
+          <UserChecksum dnOrder="6">32D7539D9231F3C159ABECE91A0281EA</UserChecksum>
+        </File>
+        <File dnOrder="35">
+          <Type dnOrder="0">HEADER</Type>
+          <Name dnOrder="1">plib_tmr1_common.h</Name>
+          <Security dnOrder="2">NON_SECURE</Security>
+          <LogicalPath dnOrder="3">config/default/peripheral/tmr1/</LogicalPath>
+          <PhysicalPath dnOrder="4">/peripheral/tmr1/</PhysicalPath>
+          <GeneratedChecksum dnOrder="5">69E7C8CDAB1B32838331EE261170CEA4</GeneratedChecksum>
+          <UserChecksum dnOrder="6">69E7C8CDAB1B32838331EE261170CEA4</UserChecksum>
+        </File>
+        <File dnOrder="36">
+          <Type dnOrder="0">HEADER</Type>
+          <Name dnOrder="1">plib_uart1.h</Name>
+          <Security dnOrder="2">NON_SECURE</Security>
+          <LogicalPath dnOrder="3">config/default/peripheral/uart/</LogicalPath>
+          <PhysicalPath dnOrder="4">/peripheral/uart/</PhysicalPath>
+          <GeneratedChecksum dnOrder="5">E1124D987C677DE15615D40B3A3FFECD</GeneratedChecksum>
+          <UserChecksum dnOrder="6">E1124D987C677DE15615D40B3A3FFECD</UserChecksum>
+        </File>
+        <File dnOrder="37">
+          <Type dnOrder="0">HEADER</Type>
+          <Name dnOrder="1">plib_uart2.h</Name>
+          <Security dnOrder="2">NON_SECURE</Security>
+          <LogicalPath dnOrder="3">config/default/peripheral/uart/</LogicalPath>
+          <PhysicalPath dnOrder="4">/peripheral/uart/</PhysicalPath>
+          <GeneratedChecksum dnOrder="5">A43E791BD5BE22D04CE9541D4EA5F422</GeneratedChecksum>
+          <UserChecksum dnOrder="6">A43E791BD5BE22D04CE9541D4EA5F422</UserChecksum>
+        </File>
+        <File dnOrder="38">
+          <Type dnOrder="0">HEADER</Type>
+          <Name dnOrder="1">plib_uart_common.h</Name>
+          <Security dnOrder="2">NON_SECURE</Security>
+          <LogicalPath dnOrder="3">config/default/peripheral/uart/</LogicalPath>
+          <PhysicalPath dnOrder="4">/peripheral/uart/</PhysicalPath>
+          <GeneratedChecksum dnOrder="5">903175300C64256E267D1DB8F91D7861</GeneratedChecksum>
+          <UserChecksum dnOrder="6">903175300C64256E267D1DB8F91D7861</UserChecksum>
+        </File>
+        <File dnOrder="39">
+          <Type dnOrder="0">HEADER</Type>
+          <Name dnOrder="1">toolchain_specifics.h</Name>
+          <Security dnOrder="2">NON_SECURE</Security>
+          <LogicalPath dnOrder="3">config/default/</LogicalPath>
+          <PhysicalPath dnOrder="4">/</PhysicalPath>
+          <GeneratedChecksum dnOrder="5">2C8543317B3F067432097AB9BD3E8672</GeneratedChecksum>
+          <UserChecksum dnOrder="6">2C8543317B3F067432097AB9BD3E8672</UserChecksum>
+        </File>
+        <File dnOrder="40">
+          <Type dnOrder="0">LINKER</Type>
+          <Name dnOrder="1">p32MX250F128B.ld</Name>
+          <Security dnOrder="2">NON_SECURE</Security>
+          <LogicalPath dnOrder="3">config/default/</LogicalPath>
+          <PhysicalPath dnOrder="4">/</PhysicalPath>
+          <GeneratedChecksum dnOrder="5">24D9F9B547E60190DBC7E75477998A52</GeneratedChecksum>
+          <UserChecksum dnOrder="6">24D9F9B547E60190DBC7E75477998A52</UserChecksum>
+        </File>
+      </Files>
+      <Settings dnOrder="1">
+        <Setting append="true" category="C32" delimiter=";" dnOrder="0" key="extra-include-directories" security="NON_SECURE" value="../src;../src/config/default;../src/packs/PIC32MX250F128B_DFP;"/>
+        <Setting category="C32" dnOrder="1" key="generate-16-bit-code" security="NON_SECURE" value="false"/>
+        <Setting category="C32-LD" dnOrder="2" key="heap-size" security="NON_SECURE" value="512"/>
+        <Setting category="C32-LD" dnOrder="3" key="no-device-startup-code" security="NON_SECURE" value="true"/>
+        <Setting append="true" category="C32CPP" delimiter=";" dnOrder="4" key="extra-include-directories" security="NON_SECURE" value="../src;../src/config/default;../src/packs/PIC32MX250F128B_DFP;"/>
+        <Setting category="C32CPP" dnOrder="5" key="generate-16-bit-code" security="NON_SECURE" value="false"/>
+      </Settings>
+    </Manifest>
+    <Settings dnOrder="5">
+      <Setting dnOrder="0" key="CMSISPath" value="./dev_packs/arm/CMSIS/5.7.0"/>
+      <Setting dnOrder="1" key="DFPPath" value="./dev_packs/Microchip/PIC32MX_DFP/1.4.241/atdf/PIC32MX250F128B.atdf"/>
+      <Setting dnOrder="2" key="FORCE_OPTIMIZATION" value="false"/>
+      <Setting dnOrder="3" key="GENERATE_BACKUP" value="true"/>
+      <Setting dnOrder="4" key="MERGE_STRATEGY" value="USER_ALL"/>
+      <Setting dnOrder="5" key="PackageFilter" value="ethercat;crypto_apps_large_hash;reference_apps;cryptoauthlib_apps;crypto_apps_encrypt_decrypt;core_apps_pic32mz_w1;csp_apps_sam_d21_da1;bootloader_apps_uart;quick_docs;csp;bootloader_apps_ethernet;core_apps_sam_l21;csp_apps_sam_e70_s70_v70_v71;csp_apps_pic32mz_w1;gfx_apps;net;core_apps_sam_a5d2;csp_apps_pic32mk;crypto;csp_apps_sam_9x60;core_apps_sam_l10_l11;core_apps_pic32mk;motor_control;touch;core_apps_sam_e70_s70_v70_v71;x2c;csp_apps_sam_l21;aws_cloud;csp_apps_sam_d10;core;expresslogic_threadx;bootloader_apps_i2c;core_apps_sam_rh71;gfx;csp_apps_sam_d5x_e5x;csp_apps_pic32mx;core_apps_sam_d21_da1;csp_apps_pic32mz_ef;bootloader;core_apps_pic32mz_ef;wireless;core_apps_sam_d5x_e5x;core_apps_sam_c20_c21;aerospace;csp_apps_sam_l10_l11;core_apps_sam_9x60;core_apps_sam_g55;csp_apps_sam_c20_c21;bootloader_apps_sdcard;usb;core_apps_sam_l22;touch_apps;bsp;audio;csp_apps_sam_ha1;core_apps_sam_ha1;csp_apps_sam_d20;csp_apps_sam_g55;csp_apps_sam_d11;micrium_ucos3;crypto_apps_speed_test;csp_apps_sam_rh71;classb_sam_e5x_d5x;bt;azure-rtos-threadx;core_apps_pic32mx;bootloader_apps_usb;core_apps_sam_d20;csp_apps_sam_l22;csp_apps_pic32mz_da;cryptoauthlib;core_apps_pic32mz_da;"/>
+      <Setting dnOrder="6" key="TRUSTZONE" value="false"/>
+    </Settings>
+  </Configurator>
+</Configuration>
